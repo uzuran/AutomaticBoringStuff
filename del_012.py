@@ -4,6 +4,7 @@ print(newName)
 
 eggs = [1, 2, 3]
 
+
 del eggs[2]
 del eggs[1]
 del eggs[0]
