@@ -1,6 +1,7 @@
-sort_list = ['Some', 'table', 'Art', 'Solo']
-### Reverse function.
-sorted(sort_list, reverse=True)
-### Same like.
-sort_list.sort(reverse=True)
-print(sort_list)
+sort_list_numbers = [1, 5, 3, 4, 9, 6, 10]
+sort_list_numbers.sort()
+print(sort_list_numbers)
+
+sort_list_numbers = [1, 5, 3, 4, 9, 6, 10]
+sorted(sort_list_numbers, reverse=True)
+print(sort_list_numbers)
